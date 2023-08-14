@@ -8,7 +8,8 @@ let sound = new Howl({
   });
 const modelViewer = document.getElementById('mv');
 const annotation = modelViewer.querySelector('.annotation');
-const text1 = modelViewer.querySelector('.text1')
+const text1 = modelViewer.querySelector('.text1');
+const text2 = modelViewer.querySelector('.text2')
 
 modelViewer.addEventListener('model-visibility', function () {
     if (iOS()) {
@@ -32,6 +33,7 @@ function startAnimations(){
     setTimeout(() => {
         text1.style.display = 'none'
         annotation.style.display = 'block'
+        text2.style.display = 'block';
     }, 18000)
 }
 

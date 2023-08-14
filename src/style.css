@@ -21,7 +21,7 @@
     background-color: #ffffff;
     position: absolute;
     left: 50%;
-    bottom: 10vh;
+    bottom: 18vh;
     transform: translateX(-50%);
     white-space: nowrap;
     padding: 0px 22px 0px;
@@ -35,7 +35,7 @@
     border: 2px solid #DADCE0;
   }
 
-  .text1 {
+  .text1, .text2 {
     background-color: #ebebeb;
     position: absolute;
     bottom: 10vh;
@@ -53,6 +53,10 @@
     padding: 10px;
     pointer-events: none;
     transition: all ease-out 0.3s;
+  }
+
+  .text2{
+    bottom: 8vh;
   }
   
   /* Override default AR button styles to make it look better on a white background */
